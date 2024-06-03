@@ -1,5 +1,5 @@
 --//load and save
-local foldername = "Alchemy Hub - Kaitun"
+local foldername = "Nattapon Hub - Kaitun"
 local filename = foldername.."/Setting.json"
 function saveSettings()
 	local HttpService = game:GetService("HttpService")
@@ -36,7 +36,7 @@ ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.0605285577, 0, 0.128846154, 0)
 ImageButton.Size = UDim2.new(0, 78, 0, 74)
-ImageButton.Image = "rbxassetid://14981376704"
+ImageButton.Image = "rbxassetid://17719617126"
 ImageButton.MouseButton1Down:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true,127,false,game)
 	game:GetService("VirtualInputManager"):SendKeyEvent(false,127,false,game)
@@ -275,10 +275,10 @@ local Section2 = Tab:Section("- Melee Status -","Left")
 local Section3 = Tab:Section("- Sword Status -","Right")
 local Notify = function(Text_i,Duration_i)
 	game.StarterGui:SetCore("SendNotification", {
-		Title = "Alchemy Hub V2",
+		Title = "Nattapon Hub V2",
 		Text = Text_i,
 		Duration = Duration_i,
-		Icon = "rbxassetid://14981376704"
+		Icon = "rbxassetid://17719617126"
 	})
 end
 Section:Toggle("Start Farm",false,function(v)
